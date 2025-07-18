@@ -50,7 +50,7 @@ const portfolioProjects = [
 
 export const ProjectsSection = () => {
   return (
-    <section className="pb-16 lg:py-24">
+    <section className="pb-16 lg:py-24" id="projects">
       <div className="container">
         <HeaderSection
           eyebrow="REAL-WORLD PROJECTS"
@@ -59,10 +59,13 @@ export const ProjectsSection = () => {
           performance."
         />
         <div className="flex flex-col mt-10 md:mt-20 gap-20">
-          {portfolioProjects.map((project) => (
+          {portfolioProjects.map((project, project_index) => (
             <Card
               key={project.title}
-              className="px-8 pb-0 pt-8 md:px-10  md:pt-12 lg:pt-16 lg:px-20"
+              className="px-8 pb-0 pt-8 md:px-10  md:pt-12 lg:pt-16 lg:px-20 sticky"
+              style={{
+                top: `calc(74px + ${project_index}* 40px)`,
+              }}
             >
               <div className="lg:grid lg:grid-cols-2 lg:gap-16">
                 <div className="lg:pb-16">

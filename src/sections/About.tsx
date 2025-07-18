@@ -88,7 +88,7 @@ const Locationurl =
 
 export const AboutSection = () => {
   return (
-    <div className="py-20 lg:py-28">
+    <section className="py-20 lg:py-28" id="about">
       <div className="container">
         <HeaderSection
           eyebrow="About Me"
@@ -161,6 +161,6 @@ export const AboutSection = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };

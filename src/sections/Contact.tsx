@@ -2,7 +2,7 @@ import ArrowUpRightIcon from "@/assets/icons/arrow-up-right.svg";
 import GrainImage from "@/assets/images/grain.jpg";
 export const ContactSection = () => {
   return (
-    <div className="py-12 lg:py-20">
+    <section className="py-12 lg:py-20" id="contact">
       <div className="container">
         <div className="bg-gradient-to-r from-emerald-300 to-sky-400 text-gray-900 py-8 px-10 rounded-3xl text-center md:text-left relative z-0">
           <div
@@ -21,14 +21,14 @@ export const ContactSection = () => {
             </div>
 
             <div>
-              <button className="inline-flex items-center gap-2 text-white bg-gray-900 px-6 h-12 rounded-xl w-max border border-gray-900">
+              <a href="mailto:linkupwithfarhan@gmail.com" className="inline-flex items-center gap-2 text-white bg-gray-900 px-6 h-12 rounded-xl w-max border border-gray-900">
                 <span className="font-semibold">Contact Me</span>
                 <ArrowUpRightIcon className="size-4" />
-              </button>
+              </a>
             </div>
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
