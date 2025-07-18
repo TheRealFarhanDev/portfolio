@@ -1,5 +1,6 @@
 import ArrowUpRightIcon from "@/assets/icons/arrow-up-right.svg";
 import GrainImage from "@/assets/images/grain.jpg";
+const gmailhref = "https://mail.google.com/mail/u/0/?fs=1&to=linkupwithfarhan@gmail.com&su=Subject&body=Message&tf=cm"
 export const ContactSection = () => {
   return (
     <section className="py-12 lg:py-20" id="contact">
@@ -21,7 +22,7 @@ export const ContactSection = () => {
             </div>
 
             <div>
-              <a href="mailto:linkupwithfarhan@gmail.com" className="inline-flex items-center gap-2 text-white bg-gray-900 px-6 h-12 rounded-xl w-max border border-gray-900">
+              <a href={gmailhref} target="_blank" className="inline-flex items-center gap-2 text-white bg-gray-900 px-6 h-12 rounded-xl w-max border border-gray-900">
                 <span className="font-semibold">Contact Me</span>
                 <ArrowUpRightIcon className="size-4" />
               </a>
