@@ -88,7 +88,7 @@ const Locationurl =
 
 export const AboutSection = () => {
   return (
-    <section className="py-20 lg:py-26" id="about">
+    <section className="py-16 lg:py-26" id="about">
       <div className="container">
         <HeaderSection
           eyebrow="About Me"
