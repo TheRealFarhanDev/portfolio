@@ -3,9 +3,9 @@ import memojiAvatar2 from "@/assets/images/memoji-avatar-2.png";
 import memojiAvatar3 from "@/assets/images/memoji-avatar-3.png";
 import memojiAvatar4 from "@/assets/images/memoji-avatar-4.png";
 import memojiAvatar5 from "@/assets/images/memoji-avatar-5.png";
+import memojiAvatar6 from "@/assets/images/memoji-avatar-6.png";
 import HeaderSection from "@/components/HeaderSection";
 import Image from "next/image";
-import GrainImage from "@/assets/images/grain.jpg";
 import Card from "@/components/Card";
 import { Fragment } from "react";
 
@@ -44,7 +44,7 @@ const testimonials = [
     name: "Dhanush",
     position: "Cybersecurity Enthusiast 🛡️",
     text: "While I’m usually buried in firewalls and threat reports, seeing his work on Projects, it reminds me how secure and sleek a well-built app can be. It's full-stack done right — both in form and function.",
-    avatar: memojiAvatar3,
+    avatar: memojiAvatar6,
   },
 ];
 

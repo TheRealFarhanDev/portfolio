@@ -123,7 +123,7 @@ export const HeroSection = () => {
         </div>
         <div className="max-w-lg mx-auto">
           <h1 className="font-serif text-3xl text-center mt-8 tracking-wide md:text-5xl">
-            Crafting Exceptional Web Experiences
+            Mohammed Farhan
           </h1>
           <p className="mt-4 text-center text-white/60 md:text-lg">
             I create high-performance web apps that look great and work even

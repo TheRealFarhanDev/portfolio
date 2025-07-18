@@ -2,19 +2,19 @@ import ArrowUpRightIcon from "@/assets/icons/arrow-up-right.svg"
 const footerLinks = [
   {
     title: "Github",
-    href: "#",
+    href: "https://github.com/TheRealFarhanDev",
   },
   {
     title: "Linkedin",
-    href: "#",
+    href: "https://www.linkedin.com/in/mohammed-farhan-0b2ab4341/",
   },
   {
     title: "Instagram",
-    href: "#",
+    href: "https://www.instagram.com/farhxn_13/#",
   },
   {
     title: "Gmail",
-    href: "#",
+    href: "mailto:linkupwithfarhan@gmail.com",
   },
 ];
 
