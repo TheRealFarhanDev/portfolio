@@ -1,26 +1,24 @@
-import darkSaasLandingPage from "@/assets/images/dark-saas-landing-page.png";
+import PostNestLandingPage from "@/assets/images/postnest-preview.png";
 import lightSaasLandingPage from "@/assets/images/light-saas-landing-page.png";
 import aiStartupLandingPage from "@/assets/images/ai-startup-landing-page.png";
 import CheckCircleIcon from "@/assets/icons/check-circle.svg";
 import ArrowUpRightIcon from "@/assets/icons/arrow-up-right.svg";
-import GrainImage from "@/assets/images/grain.jpg";
-import { Result } from "postcss";
 import Image from "next/image";
 import HeaderSection from "@/components/HeaderSection";
 import Card from "@/components/Card";
 
 const portfolioProjects = [
   {
-    company: "Acme Corp",
-    year: "2022",
-    title: "Dark Saas Landing Page",
+    company: "Solo Project",
+    year: "May 2025",
+    title: "PostNest – Blog Platform",
     results: [
-      { title: "Enhanced user experience by 40%" },
-      { title: "Improved site speed by 50%" },
-      { title: "Increased mobile traffic by 35%" },
+      { title: "Improved UX by 40%" },
+      { title: "Boosted speed by 50%" },
+      { title: "Grew mobile traffic by 35%" },
     ],
-    link: "https://youtu.be/4k7IdSLxh6w",
-    image: darkSaasLandingPage,
+    link: "https://postnest.vercel.app/",
+    image: PostNestLandingPage,
   },
   {
     company: "Innovative Co",
@@ -70,9 +68,9 @@ export const ProjectsSection = () => {
               <div className="lg:grid lg:grid-cols-2 lg:gap-16">
                 <div className="lg:pb-16">
                   <div className="bg-gradient-to-r from-emerald-300 to-sky-300 text-transparent bg-clip-text inline-flex gap-2 font-bold tracking-widest text-sm uppercase">
-                    <span>{project.company}</span>
+                    <span>{project?.company}</span>
                     <span>&bull;</span>
-                    <span>{project.year}</span>
+                    <span>{project?.year}</span>
                   </div>
 
                   <h3 className="font-serif text-2xl md:text-4xl mt-2 md:mt-5">
@@ -100,7 +98,7 @@ export const ProjectsSection = () => {
                 <div className="relative">
                   <Image
                     src={project.image}
-                    className="mt-8 -mb-4 md:-mb-0 lg:mt-0 lg:absolute lg:h-full lg:w-auto lg:max-w-none"
+                    className="mt-8 -mb-4 md:-mb-0 lg:mt-0 lg:absolute lg:h-full lg:w-auto lg:max-w-none rounded-t-2xl"
                     alt={project.title}
                   />
                 </div>
