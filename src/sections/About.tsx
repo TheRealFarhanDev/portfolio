@@ -99,6 +99,7 @@ export const AboutSection = () => {
           title="Glimpse Into My World"
           description="Learn more about who I am, what I do, and what inspires me."
         />
+
         <div className="mt-20 flex flex-col gap-8">
           <div className="grid grid-cols-1 gap-8 md:grid-cols-5 lg:grid-cols-3">
             <Card className="h-[320px] md:col-span-2 lg:col-span-1">
@@ -107,15 +108,14 @@ export const AboutSection = () => {
                 description="Explore the books shaping my perspectives."
               />
               <div className="w-40 mx-auto mt-2">
-                <Image src={BookImage} className="" alt="Book Image" />
+                <Image src={BookImage} alt="Book Image" />
               </div>
             </Card>
+
             <Card className="h-[320px] md:col-span-3 lg:col-span-2">
               <CardHeader
                 title="My Toolbox"
-                description="Explore the technologies and tools i use to craft exceptional
-              digital experiences."
-                className=""
+                description="Explore the technologies and tools I use to craft exceptional digital experiences."
               />
               <ToolboxItems
                 items={toolboxItems}
@@ -129,6 +129,7 @@ export const AboutSection = () => {
               />
             </Card>
           </div>
+
           <div className="grid grid-cols-1 gap-8 md:grid-cols-5 lg:grid-cols-3">
             <Card className="h-[320px] flex flex-col md:col-span-3 lg:col-span-2">
               <CardHeader
@@ -156,6 +157,7 @@ export const AboutSection = () => {
                 ))}
               </div>
             </Card>
+
             <Card className="h-[320px] relative md:col-span-2 lg:col-span-1">
               <a href={Locationurl} target="_blank" rel="noopener noreferrer">
                 <Image
@@ -163,7 +165,7 @@ export const AboutSection = () => {
                   alt="Map"
                   className="w-full h-full object-cover"
                 />
-                <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 size-20  rounded-full after:absolute after:inset-0 after:content-[''] after:outline after:outline-2 after:outline-gray-950/30 after:-outline-offset-2 after:rounded-full">
+                <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 size-20 rounded-full after:absolute after:inset-0 after:content-[''] after:outline after:outline-2 after:outline-gray-500/30 after:-outline-offset-2 after:rounded-full" >
                   <div className="absolute inset-0 rounded-full bg-gradient-to-r from-emerald-300 to-sky-400 -z-10"></div>
                   <div className="absolute inset-0 rounded-full bg-gradient-to-r from-emerald-300 to-sky-400 -z-20 animate-ping [animation-duration:2s]"></div>
                   <Image src={SmileMemoji} alt="Smile Emoji" />

@@ -17,7 +17,7 @@ const ToolboxItems = ({
   return (
     <div
       className={twMerge(
-        "flex [mask-image:linear-gradient(to_right,transparent,black_10%,black_90%,transparent)]",
+        "flex [mask-image:linear-gradient(to_right,transparent,black_10%,black_90%,transparent)] dark:[mask-image:linear-gradient(to_right,transparent,white_10%,white_90%,transparent)]",
         className
       )}
     >
@@ -32,7 +32,7 @@ const ToolboxItems = ({
             {items.map((item) => (
               <div
                 key={item.title}
-                className="inline-flex items-center font-semibold gap-4 px-3 py-2 outline outline-2 outline-white/20 rounded-lg"
+                className="inline-flex items-center font-semibold gap-4 px-3 py-2 rounded-lg outline outline-2 outline-neutral-300 dark:outline-white/20 bg-white dark:bg-transparent text-gray-900 dark:text-white"
               >
                 <TechIcon component={item.iconType} />
                 <span>{item.title}</span>
