@@ -1,6 +1,6 @@
 import PostNestLandingPage from "@/assets/images/postnest-preview.png";
-import lightSaasLandingPage from "@/assets/images/light-saas-landing-page.png";
-import aiStartupLandingPage from "@/assets/images/ai-startup-landing-page.png";
+import greenCartLandingPage from "@/assets/images/green-cart.png";
+import filmFetchLandingPage from "@/assets/images/film-fetch.png";
 import CheckCircleIcon from "@/assets/icons/check-circle.svg";
 import ArrowUpRightIcon from "@/assets/icons/arrow-up-right.svg";
 import Image from "next/image";
@@ -8,6 +8,18 @@ import HeaderSection from "@/components/HeaderSection";
 import Card from "@/components/Card";
 
 const portfolioProjects = [
+  {
+    company: "Best Project (Pending)",
+    year: "2025",
+    title: "GreenCart - Grocery Delivery Website",
+    results: [
+      { title: "Boosted sales by 20%" },
+      { title: "Expanded customer reach by 35%" },
+      { title: "Increased brand awareness by 15%" },
+    ],
+    link: "https://github.com/TheRealFarhanDev/GreenCart",
+    image: greenCartLandingPage,
+  },
   {
     company: "Solo Project",
     year: "May 2025",
@@ -21,28 +33,16 @@ const portfolioProjects = [
     image: PostNestLandingPage,
   },
   {
-    company: "Innovative Co",
-    year: "2021",
-    title: "Light Saas Landing Page",
-    results: [
-      { title: "Boosted sales by 20%" },
-      { title: "Expanded customer reach by 35%" },
-      { title: "Increased brand awareness by 15%" },
-    ],
-    link: "https://youtu.be/7hi5zwO75yc",
-    image: lightSaasLandingPage,
-  },
-  {
-    company: "Quantum Dynamics",
-    year: "2023",
-    title: "AI Startup Landing Page",
+    company: "Personal Project",
+    year: "2024",
+    title: "FilmFetch - Movie Database ",
     results: [
       { title: "Enhanced user experience by 40%" },
       { title: "Improved site speed by 50%" },
       { title: "Increased mobile traffic by 35%" },
     ],
-    link: "https://youtu.be/Z7I5uSRHMHg",
-    image: aiStartupLandingPage,
+    link: "https://film-fetch.vercel.app/",
+    image: filmFetchLandingPage,
   },
 ];
 
