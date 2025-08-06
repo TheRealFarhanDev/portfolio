@@ -87,7 +87,7 @@ const hobbies = [
 ];
 
 const Locationurl =
-  "https://www.google.com/maps/place/Channapatna,+Karnataka+562160/@11.8564451,77.2729866,6.6z/data=!4m6!3m5!1s0x3bae52b7dd136c9b:0x7d4883056a3e05e0!8m2!3d12.6518078!4d77.2085794!16zL20vMGRxazlw?entry=ttu&g_ep=EgoyMDI1MDcxNS4xIKXMDSoASAFQAw%3D%3D";
+  "https://www.google.com/maps/place/Channarayapatna,+Karnataka+573116/@12.9041775,76.3832956,15.2z/data=!4m15!1m8!3m7!1s0x3ba5594accfa07f5:0xbe7e9f358e9188bc!2sChannarayapatna,+Karnataka+573116!3b1!8m2!3d12.9035322!4d76.3897978!16zL20vMGdnbWhj!3m5!1s0x3ba5594accfa07f5:0xbe7e9f358e9188bc!8m2!3d12.9035322!4d76.3897978!16zL20vMGdnbWhj?entry=ttu&g_ep=EgoyMDI1MDgwMy4wIKXMDSoASAFQAw%3D%3D";
 
 export const AboutSection = () => {
   const constrainRef = useRef(null);
