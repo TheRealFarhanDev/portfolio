@@ -2,7 +2,7 @@
 
 A clean and modern developer portfolio built with **Next.js 14**, **Tailwind CSS**, and **Framer Motion**. Fully responsive, fast, and optimized to showcase your work, skills, and online presence.
 
-## 🔗 **Live Demo:** [Click Here](https://mohammedfarhan.vercel.app)
+## 🔗 **Live Demo:** [Click Here](https://www.farhan-dev.tech/)
 
 ## 🚀 Tech Stack
 
