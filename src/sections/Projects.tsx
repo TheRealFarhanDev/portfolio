@@ -9,15 +9,15 @@ import Card from "@/components/Card";
 
 const portfolioProjects = [
   {
-    company: "Best Project (Pending)",
+    company: "Best Solo Project",
     year: "2025",
-    title: "GreenCart - Grocery Delivery Website",
+    title: "GreenCart – Grocery Hub",
     results: [
       { title: "Boosted sales by 20%" },
       { title: "Expanded customer reach by 35%" },
       { title: "Increased brand awareness by 15%" },
     ],
-    link: "https://github.com/TheRealFarhanDev/GreenCart",
+    link: "https://greencart-frontend-blond.vercel.app/",
     image: greenCartLandingPage,
   },
   {
@@ -35,7 +35,7 @@ const portfolioProjects = [
   {
     company: "Personal Project",
     year: "2024",
-    title: "FilmFetch - Movie Database ",
+    title: "FilmFetch - Movie Database",
     results: [
       { title: "Enhanced user experience by 40%" },
       { title: "Improved site speed by 50%" },
